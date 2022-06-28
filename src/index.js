@@ -1,6 +1,8 @@
 //import modules
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
+import MaplibreLegendControl from '@watergis/maplibre-gl-legend';
+import '@watergis/maplibre-gl-legend/css/styles.css';
 // We will do the followings later.
 //import { MapboxStyleSwitcherControl } from 'mapbox-gl-style-switcher';
 //import 'mapbox-gl-style-switcher/styles.css';
@@ -28,6 +30,21 @@ map.addControl(new mapgl.NavigationControl(), 'bottom-right');
 map.addControl(new mapgl.ScaleControl({
     maxWidth: 200, unit: 'metric'
 }) );
+
+//legend
+const targets ={
+  'photo':'photo',
+  'hills':'hills'
+};
+map.addControl(new watergis.MaplibreLegendControl(targets, {
+  showDefault: false,
+  showCheckbox: false,
+  onlyRendered: true,
+  reverseOrder: true
+
+}), 'top-right');
+
+
 
 /*
 //style-switcher

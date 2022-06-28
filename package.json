@@ -21,6 +21,7 @@
     "@watergis/mapbox-gl-export": "^1.2.16",
     "@watergis/mapbox-gl-legend": "^1.2.3",
     "@watergis/mapbox-gl-popup": "^1.0.4",
+    "@watergis/maplibre-gl-legend": "^1.2.4",
     "css-loader": "^6.7.1",
     "mapbox-gl": "^2.8.2",
     "mapbox-gl-style-switcher": "^1.0.11",
