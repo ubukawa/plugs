@@ -20,7 +20,8 @@ const map = new mapgl.Map({
   center: [134.233884, 34.033731],
   hash: true,
   zoom: 8,
-  maxZoom: 16
+  maxZoom: 16,
+  maxPitch: 85
 });
 
 map.addControl(new mapgl.NavigationControl(), 'bottom-right');
