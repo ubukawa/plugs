@@ -3,6 +3,7 @@ const path = require('path'); //path module
 module.exports = {
     mode: 'development', //use production at the end
     entry: './src/index.js', //edit this 
+    //entry: './src/index-mapbox.js', //for mapbox 
     //entry: './src/index01.js',
     //entry: './src/index02.js',
     //entry: './src/index03.js',
