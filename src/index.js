@@ -36,12 +36,11 @@ const targets ={
   'photo':'photo',
   'hills':'hills'
 };
-map.addControl(new watergis.MaplibreLegendControl(targets, {
+map.addControl(new MaplibreLegendControl(targets, {
   showDefault: false,
   showCheckbox: false,
   onlyRendered: true,
   reverseOrder: true
-
 }), 'top-right');
 
 
