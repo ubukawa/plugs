@@ -1,7 +1,7 @@
 //import modules
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import MaplibreLegendControl from '@watergis/maplibre-gl-legend';
+import { MaplibreLegendControl } from "@watergis/maplibre-gl-legend";
 import '@watergis/maplibre-gl-legend/css/styles.css';
 // We will do the followings later.
 //import { MapboxStyleSwitcherControl } from 'mapbox-gl-style-switcher';
