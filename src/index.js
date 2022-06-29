@@ -39,7 +39,7 @@ const targets ={
 map.addControl(new MaplibreLegendControl(targets, {
   showDefault: false,
   showCheckbox: true,
-  onlyRendered: true,
+//  onlyRendered: true,
   reverseOrder: true
 }), 'bottom-left');
 
