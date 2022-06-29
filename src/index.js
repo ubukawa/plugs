@@ -33,8 +33,8 @@ map.addControl(new mapgl.ScaleControl({
 
 //legend
 const targets ={
-  'photo':'photo',
-  'hills':'hills'
+  'Photo':'写真（国土地理院）',
+  'hills':'Hills'
 };
 map.addControl(new MaplibreLegendControl(targets, {
   showDefault: false,
