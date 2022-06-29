@@ -38,10 +38,10 @@ const targets ={
 };
 map.addControl(new MaplibreLegendControl(targets, {
   showDefault: false,
-  showCheckbox: false,
+  showCheckbox: true,
   onlyRendered: true,
   reverseOrder: true
-}), 'top-right');
+}), 'bottom-left');
 
 
 
